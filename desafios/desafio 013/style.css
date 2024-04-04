@@ -6,10 +6,21 @@ body {
 }
 table {
     border-collapse: collapse;
+    text-align: center;
 }
-
 
  th, td {
     padding: 10px;
     border: 1px solid black;
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.555);
  }
+ 
+thead, .cabecalho {
+    background-color: gray;
+    font-weight: bolder;
+    color: white;
+}
+
+.aa {
+    text-align: left;
+}

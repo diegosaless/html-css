@@ -9,8 +9,19 @@ html, body {
     height: 100vh;
     width: 100vw;
 }
- 
 
+
+form {
+    background-color: rgb(236, 111, 33);
+    height: 400px;
+    
+}
+input{
+    background-color: aqua;
+}
+form > p {
+    padding: 10px;
+}
 main{
     position: relative;
     height: 100vh;
@@ -58,3 +69,13 @@ img:hover {
    transform: translate(-3px, -3px);
    box-shadow: 5px 5px 10px black;
 }
+
+.enviar {
+    width: 65px;
+}
+
+.enviar:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(58, 82, 66);
+}
+
